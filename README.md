@@ -1,1 +1,1 @@
-This is my personal profile websit.
+This is my personal profile website.
