@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My personal portfolio website">
+    <meta name="keywords" content="HTML, CSS, javascript, portfolio">
+    <meta name="author" content="Dambar Chamling">
+    <meta name="theme-color" content="hsl(24.3, 97.4%, 54.3%)">
+    <title>Dambar Chamling</title>
+
+    <!-- Fevicon Icons  -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fevicon Icons  -->
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+        integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/index.js"></script>
+
+    <!-- <script defer src="https://kit.fontawesome.com/3a6d6cfdd2.js" crossorigin="anonymous"></script> -->
+
+
+</head>
+
+<body>
+    <header class="header mb-5 container-fluid sticky" id="header-section">
+        <div class="header-title">DAMBAR CHAMLING</div>
+        <!-- <img src="images/logo1.png" alt="logo_pic" />  -->
+        <nav class="navbar" id="navbar">
+            <ul class="navbar-link" id="navbar-link">
+                <li><a href="#about-section" class="a-link about-link active">About</a></li>
+                <li><a href="#section-experience" class="a-link experience-link">Experience</a></li>
+                <li><a href="#skills-section" class="a-link skills-link">Skills</a></li>
+                <li><a href="#education-section" class="a-link education-link">Education</a>
+                </li>
+                <li><a href="#project-section" class="a-link project-link">Projects</a></li>
+                <li><a href="#award-section" class="a-link project-link">Awards</a></li>
+                <li><a href="#contact-section" class="a-link contact-link">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Navbar for Mobile View  -->
+        <div class="mobile-navbar text-center container" id="mobile-navbar">
+            <div class="row mobile-navbar-link">
+                <ul class="navbar-link pt-4" id="navbar-link">
+                    <div class="col text-center border border-primary">
+                        <li><a href="#about-section" class="a-link about-link active">About</a></li>
+                    </div>
+                    <div class="col border border-primary">
+                        <li><a href="#section-experience" class="a-link experience-link">Experience</a></li>
+                    </div>
+                    <div class="col text-center border border-primary">
+                        <li><a href="#skills-section" class="a-link skills-link">Skills</a></li>
+                    </div>
+                </ul>
+
+            </div>
+            <div class="row mobile-navbar-link">
+                <ul class="navbar-link pb-2" id="navbar-link">
+                    <div class="col accordion border border-primary">
+                        <li><a href="#education-section" class="a-link education-link">Education</a></li>
+                    </div>
+                    <div class="col text-center border border-primary">
+                        <li><a href="#project-section" class="a-link project-link">Projects</a></li>
+                    </div>
+                    <div class="col text-center border border-primary">
+                        <li><a href="#award-section" class="a-link project-link">Awards</a></li>
+                    </div>
+                    <div class="col text-center border border-primary">
+                        <li><a href="#contact-section" class="a-link contact-link">Contact</a></li>
+                    </div>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- Navbar for Mobile View  -->
+    </header>
+
+    <!-- ABOUTME SECTION -->
+
+    <section class="section aboutme-section aboutme container1 section-div" id="about-section">
+        <div class="aboutme-image text-center">
+            <img src="images/profile.jpg" loading="lazy" alt="profile-pic">
+        </div>
+        <div class="about-title text-center pt-3">
+            <h1>I AM DAMBAR CHAMLING</h1>
+        </div>
+        <div class="row aboutme-data">
+            <div class="col">
+                <p>A passionate tech enthusiast excited about diving into the world of technology. As a newcomer to the
+                    industry, I bring an insatiable curiosity and eagerness to learn alongside a strong desire to make
+                    a meaningful impact through technology. While I'm relatively new to the field, I'm enthusiastic
+                    about exploring various facets of technology. I'm currently
+                    focused on developing my skills in Django Developer.
+                </p>
+            </div>
+            <div class="col aboutme-second-para">
+                <p>My journey into tech is driven by a fascination with its endless possibilities and the
+                    potential to
+                    create
+                    innovative
+                    solutions that can positively influence people's
+                    lives. I'm embracing this learning phase with enthusiasm and a growth mindset, seeking
+                    opportunities
+                    to
+                    gain
+                    hands-on
+                    experience and tackle real-world challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+
+    <section class="section experience-section container1 section-div" id="section-experience">
+        <div class="common-heading text-center">EXPERIENCE</div>
+        <div class="exp grid grid-three-column">
+
+            <!-- EXPERIENCE-COMPUTER  -->
+            <div class="experience comp-asst">
+
+                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Computer
+                    Assistant</button> -->
+
+                <section>
+                    <div class="exp-canvas">
+                        <img src="images/exp/computer_asst.jpg" loading="lazy" alt="comp-asst-pic"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions">
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title fs-4 text-danger" id="offcanvasWithBothOptionsLabel">SENIOR
+                                    IT ASSISTANT
+
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <!-- Computer Assistant offcanvas-body -->
+                                <div class="comp-asst-data">
+                                    <img class="img-fluid text-center" loading="lazy" src="images/exp_pic/rbbl.jpg"
+                                        alt="rbb-logo">
+                                    <div class="rbb-title text-center">Rastriya Banijya Bank Ltd.</div>
+                                    <p class="p-2 text-center text-secondary">Senior IT Assistant<br>
+                                        (2014 March - Onwards)</p>
+                                    <div class="comp-sec">
+                                        <p class="text-primary text-decoration-underline fw-bolder">Job Responsibilities
+                                        </p>
+                                        <ul class="reslist">
+                                            <li class="res-list">Mobile Banking.</li>
+                                            <li class="res-list">Internet Banking.</li>
+                                            <li class="res-list">ASBA Focal.</li>
+                                            <li class="res-list">Troubleshooting and diagnosing technical issues.</li>
+                                            <li class="res-list">Performing maintenance & updates on hardware as
+                                                needed.</li>
+                                            <li class="res-list">Installing & updating software such as MS Office,
+                                                antivirus etc.</li>
+                                            <li class="res-list">Installing and updating Windows and Drivers.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="exp-title text-center">Computer Assistant</div>
+            </div>
+
+            <!-- EXPERIENCE- DJANGO -->
+
+            <div class="experience django">
+                <section>
+                    <div class="exp-canvas">
+                        <img src="images/exp/django.jpg" loading="lazy" alt="exp-django-pic" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDjango" aria-controls="offcanvasWithBothOptions">
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasDjango"
+                            aria-labelledby="offcanvasDjango">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title fs-3 text-danger" id="offcanvasDjango">DJANGO DEVELOPER</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <div class="django-data">
+                                    <img class="img-fluid text-center" alt="exp-django-pic" loading="lazy"
+                                        src="images/exp_pic/freelance.jpg" alt="django pic">
+                                    <h3 class="offcanvas-title text-danger text-decoration-underline p-3">Django
+                                        Developer</h3>
+                                    <section class="django-offcanvas py-3 px-3 text-secondary">
+                                        <p>As an aspiring Django developer, I am embarking on a thrilling journey into
+                                            the world of web development.
+                                            Eager to master this powerful Python framework, I am captivated by its
+                                            versatility and efficiency in
+                                            crafting dynamic web applications. </p>
+
+                                        <p>In this journey of becoming a proficient Django developer, I embrace the
+                                            challenges ahead with enthusiasm,
+                                            knowing that every hurdle conquered brings me closer to realizing my goal of
+                                            crafting remarkable web
+                                            experiences.</p>
+                                    </section>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="exp-title text-center">Django Developer</div>
+            </div>
+
+            <!-- EXPERIENCE- PYTHON  -->
+            <div class="experience python">
+                <section>
+                    <div class="exp-canvas">
+                        <img src="images/exp/python.jpg" loading="lazy" alt="exp-python-pic" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasPython" aria-controls="offcanvasWithBothOptions">
+                        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasPython"
+                            aria-labelledby="offcanvasPython">
+                            <div class="offcanvas-header">
+                                <h3 class="offcanvas-title text-danger text-decoration-underline p-3 fs-3 text-danger">
+                                    PYTHON PROGRAMMER
+                                </h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <div class="python-data exp-section">
+                                    <img class="img-fluid" loading="lazy" src="images/exp_pic/python.jpg"
+                                        alt="exp-python-pic">
+                                    <h3 class="offcanvas-title text-danger py-3 text-decoration-underline">PYTHON
+                                        DEVELOPER</h3>
+
+                                    <section class="python-offcanvas p-3 fs-4 text-secondary">
+                                        As a mid-level Python programmer, I am poised to take on increasingly intricate
+                                        projects, driven by arelentless pursuit of excellence and a genuine passion for
+                                        leveraging Python's capabilities to craft impactful solutions.
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="exp-title text-center">Python Programmer</div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section container1 section-div" id="skills-section">
+        <div class="common-heading text-center">SKILLS</div>
+        <div class="skills-bar grid grid-two-column">
+            <div class="skillset1">
+                <div class="skill">
+                    <div class="skill-title">HTML</div>
+                    <div class="progressbar">
+                        <div class="skill-num html">50%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    CSS
+                    <div class="progressbar">
+                        <div class="skill-num css">55%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    BOOTSTRAP
+                    <div class="progressbar">
+                        <div class="skill-num bootstrap">65%</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="skillset2">
+                <div class="skill">
+                    JAVASCRIPT
+                    <div class="progressbar">
+                        <div class="skill-num javascript">45%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    PYTHON
+                    <div class="progressbar">
+                        <div class="skill-num python1">50%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    DJANGO
+                    <div class="progressbar">
+                        <div class="skill-num django1">65%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Eduction Section  -->
+
+    <section class="section education-section container1 section-div" id="education-section">
+        <div class="common-heading text-center">EDUCATION</div>
+        <div class="education border border-light-subtle">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            MASTER DEGREE
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="edu-title">PURBANCHAL UNIVERSITY, PUSAT</div>
+                            <div class="edu-data">Master in Information Technology, 2020-2023</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bachelor Degree  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            BACHELOR DEGREE
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="edu-title">POKHARA UNIVERSITY, NEC</div>
+                            <div class="edu-data">B.E (Electronics & Communication Engineering), 2014-2018</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diploma Degree  -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            DIPLOMA DEGREE
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="edu-title">TRIBHUWAN UNIVERSITY, DHARAN</div>
+                            <div class="edu-data">Diploma in Computer Engineering, 2008-2012</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PROJECT SECTION  -->
+
+    <section class="section project-section container1 section-div" id="project-section">
+        <div class="common-heading text-center">PROJECTS</div>
+        <div class="projectsets">
+
+            <!-- PROJECT-SET1 SECTION  -->
+            <div class="project-set1">
+                <div class="grid grid-three-column">
+
+                    <!-- Project1-modal  -->
+                    <div class="projects-card atm">
+                        <div class="project atm-mgmt">
+                            <!-- Button trigger modal -->
+                            <img data-bs-toggle="modal" loading="lazy" data-bs-target="#staticBackdrop"
+                                src="images/projects/atm_card.jpg" alt="project-atm-mgmt">
+                            <div class="project-title text-center" data-bs-toggle="modal"
+                                data-bs-target="#staticBackdrop">ATM
+                                MANAGEMENT SYSTEM
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="staticBackdropLabel">Atm Management System
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+
+                                            <!-- Atm Mgmt Project section  -->
+                                            <!-- <include src="projects/atm_mgmt.html"></include> -->
+                                            <div class="container">
+                                                <div class="atm-mgmt">
+
+                                                    <h6 class="text-primary fs-3">INTRODUCTION</h6>
+                                                    <hr color="grey">
+                                                    <section class="text-secondary intro-exp fs-4">
+                                                        ATM MANAGEMENT SYSTEM is a Django based web application. The
+                                                        application is designed to manage the ATM
+                                                        CARDS for Banking System. It is especially used in Branch
+                                                        Offices for performing different actions
+                                                        regarding
+                                                        ATM CARDS.
+                                                    </section>
+                                                    <section>
+                                                        <p>
+                                                        <h6 class="text-danger fs-3">OPERATIONS</h6>
+                                                        </p>
+                                                        <hr color="grey">
+                                                        <p>
+                                                        <ul class="b fs-4">
+                                                            <li>Applying for New ATM CARD</li>
+                                                            <li>Receiving & Storing New ATM CARD</li>
+                                                            <li>Activating and Deactivating CARD</li>
+                                                            <li>Renew, Re-Pin, Re-Issue of ATM CARD</li>
+                                                        </ul>
+                                                        </p>
+                                                    </section>
+
+                                                    <section>
+                                                        <h6 class="text-info fs-3">ADVANTAGES</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Easy to use</li>
+                                                            <li>User-Friendly</li>
+                                                            <li>Due to ORM, easy to query</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                    <section>
+                                                        <h6 class="text-success fs-3">APPLICATIONS</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Banks & Finanacial Institutions</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary fs-5"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card loan">
+                        <div class="project loan-automate">
+                            <!-- Button trigger modal -->
+                            <img data-bs-toggle="modal" loading="lazy" data-bs-target="#loan-automate"
+                                src="images/projects/loan.jpg" alt="project-loan-automate">
+                            <div class="project-title text-center" data-bs-toggle="modal"
+                                data-bs-target="#loan-automate">LOAN
+                                AUTOMATION SYSTEM
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="loan-automate" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="LoanAutomateLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="LoanAutomateLabel">Loan Automation System
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Loan Automation Project section  -->
+
+                                            <div class="container">
+                                                <div class="row">
+                                                    <h6 class="text-primary fs-3">INTRODUCTION</h6>
+                                                    <hr color="grey">
+                                                    <section class="text-secondary intro-exp fs-4">
+                                                        LOAN AUTOMATION SYSTEM is a Django based web application.
+                                                        The application is designed for Banking
+                                                        System. It is especially used in Branch Offices
+                                                        to automate different credit relted works. This projct is
+                                                        especially created for my personal use at
+                                                        office to automate
+                                                        the tasks like to assist in CFR (Credit Facilites Request)
+                                                        generation in short period of durtion.
+                                                    </section>
+                                                    <section>
+                                                        <p>
+                                                        <h6 class="text-danger fs-3">FUNCTIONS</h6>
+                                                        </p>
+                                                        <hr color="grey">
+                                                        <p>
+                                                        <ul class="b fs-4">
+                                                            <li>CFR Generation</li>
+                                                        </ul>
+                                                        </p>
+                                                    </section>
+
+                                                    <section>
+                                                        <h6 class="text-info fs-3">ADVANTAGES</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Easy to use</li>
+                                                            <li>User-Friendly</li>
+                                                            <li>Saves Time</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                    <section>
+                                                        <h6 class="text-success fs-3">APPLICATIONS</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Banks & Finanacial Institutions</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                </div>
+
+                                            </div>
+
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary fs-4"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-card ratio">
+                        <div class="project loan-analysis">
+                            <!-- Button trigger modal -->
+                            <img data-bs-toggle="modal" loading="lazy" data-bs-target="#ratio"
+                                src="images/projects/ratio.jpg" alt="project-loan-analysis">
+                            <div class="project-title text-center" data-bs-toggle="modal" data-bs-target="#ratio">RATIO
+                                ANALYSIS SYSTEM
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="ratio" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="ratioLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="ratioLabel">Ratio Analysis System</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Ratio Analysis Section  -->
+                                            <div class="container">
+                                                <div class="row">
+                                                    <h6 class="text-primary fs-3">INTRODUCTION</h6>
+                                                    <hr color="grey">
+                                                    <section class="text-secondary intro-exp fs-4">
+                                                        RATIO ANALYSIS SYSTEM is a Django based web application. This
+                                                        application helps for ratio analysis
+                                                        during credit assessment and credit rating. It is an important
+                                                        part of credit lending process because
+                                                        it helps to assess and analyze various kinds of financial ratios
+                                                        which further assist to refine in
+                                                        decision
+                                                        making during loan approval.
+                                                    </section>
+                                                    <section>
+                                                        <p>
+                                                        <h6 class="text-danger fs-3">FUNCTIONS</h6>
+                                                        </p>
+                                                        <hr color="grey">
+                                                        <p>
+                                                        <ul class="b fs-4">
+                                                            <li>Helps in Ratio Analysing</li>
+                                                            <li>Assist in CFR Generation</li>
+                                                        </ul>
+                                                        </p>
+                                                    </section>
+
+                                                    <section>
+                                                        <h6 class="text-info fs-3">ADVANTAGES</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Easy to use</li>
+                                                            <li>User-Friendly</li>
+
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                    <section>
+                                                        <h6 class="text-success fs-3">APPLICATIONS</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Banks & Finanacial Institutions</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary fs-4"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT SET2 SECTION  -->
+            <div class="project-set2 pb-5">
+                <div class="grid grid-three-column">
+
+                    <!-- Project1-modal  -->
+                    <div class="projects-card interest">
+                        <div class="project int-calculate">
+                            <!-- Button trigger modal -->
+                            <img data-bs-toggle="modal" loading="lazy" data-bs-target="#interest-cal"
+                                src="images/projects/interest.jpg" alt="project-int-calculate">
+                            <div class="project-title text-center" data-bs-toggle="modal"
+                                data-bs-target="#interest-cal">INTEREST
+                                CALCULATION
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="interest-cal" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="interestCalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="interestCalLabel">Subisidy Interest
+                                                Calculate
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Interest Calculate Project section  -->
+                                            <div class="container">
+                                                <div class="interest-calculate">
+                                                    <h6 class="text-primary fs-3">INTRODUCTION</h6>
+                                                    <hr color="grey">
+                                                    <section class="text-secondary intro-exp fs-4">
+                                                        SUBSIDY INTEREST CALCULATION SYSTEM is a Django based web
+                                                        application. This web app is used to calculate the
+                                                        subsidy loan interest calculation. The Government of Nepal has
+                                                        provided various kinds of subsidy on certain
+                                                        types of Loan Module. For example 6% of total interest of Mahila
+                                                        Udhyamshil karja has been subsidized
+                                                        inorder
+                                                        to promote the local product. Similarly, Sainik Awash Karja is
+                                                        another kind of such facility where only
+                                                        3.12%
+                                                        of total interest has been applied to the specilized customer.
+                                                    </section>
+                                                    <section>
+                                                        <p>
+                                                        <h6 class="text-danger fs-3">OPERATIONS</h6>
+                                                        </p>
+                                                        <hr color="grey">
+                                                        <p>
+                                                        <ul class="b fs-4">
+                                                            <li>Calculate the subsidized interest amount.</li>
+                                                            <li>Calculate the remaining interest amount to be paid by
+                                                                the customer.</li>
+                                                        </ul>
+                                                        </p>
+                                                    </section>
+
+                                                    <section>
+                                                        <h6 class="text-info fs-3">ADVANTAGES</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Easy to use.</li>
+                                                            <li>User-Friendly.</li>
+                                                            <li>Saves a lot of time.</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                    <section>
+                                                        <h6 class="text-success fs-3">APPLICATIONS</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Banks & Finanacial Institutions</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+
+                                                </div>
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary fs-4"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-card robot1">
+                        <div class="project wifi-robot">
+                            <!-- Button trigger modal -->
+                            <img data-bs-toggle="modal" data-bs-target="#wifi-robot"
+                                src="images/projects/wifi-robot.jpg" alt="project-wifi-robot-pic">
+                            <div class="project-title text-center" data-bs-toggle="modal" data-bs-target="#wifi-robot">
+                                WIFI-CONTROLLED ROBOT
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="wifi-robot" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="wifi-rootLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="wifi-robotLabel">WI-FI Controlled Robot
+                                            </h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- WI-FI Controlled Robot section  -->
+
+                                            <div class="container">
+                                                <div class="row">
+                                                    <h6 class="text-primary fs-3">INTRODUCTION</h6>
+                                                    <hr color="grey">
+                                                    <section class="text-secondary intro-exp fs-4">
+                                                        WI-FI CONTROLLED ROBOT is a ARDUINO based mechanical robot. The
+                                                        controlling of robot is based on
+                                                        wireless
+                                                        signal coming via wireless device like laptop, wireless remot
+                                                        etc. The robot can be controlled from
+                                                        any place in the world where network access is available.
+                                                    </section>
+                                                    <section>
+                                                        <p>
+                                                        <h6 class="text-danger fs-3">FUNCTIONS</h6>
+                                                        </p>
+                                                        <hr color="grey">
+                                                        <p>
+                                                        <ul class="b fs-4">
+                                                            <li>It can be used to take photos from remote areas.</li>
+                                                            <li>It can be made advanced for other applications</li>
+                                                        </ul>
+                                                        </p>
+                                                    </section>
+
+                                                    <section>
+                                                        <h6 class="text-info fs-3">ADVANTAGES</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Easy to use</li>
+                                                            <li>User-Friendly</li>
+                                                            <li>It can be controlled via portable device like remote,
+                                                                laptop, mobile etc.</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                    <section>
+                                                        <h6 class="text-success fs-3">APPLICATIONS</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Industrial Purposes</li>
+                                                            <li>Commercial Purposes</li>
+                                                            <li>Research and Development</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary fs-4"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-card robot2">
+                        <div class="project path-tracker">
+                            <!-- Button trigger modal -->
+                            <img data-bs-toggle="modal" loading="lazy" data-bs-target="#path-tracker"
+                                src="images/projects/path_tracker.jpg" alt="project-path-tracker-pic">
+                            <div class="project-title text-center" data-bs-toggle="modal"
+                                data-bs-target="#path-tracker">PATH TRACKER ROBOT
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="path-tracker" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="path-trackerLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-3" id="path-trackerLabel">Path Tracker Robot</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!-- Path Tracker Robot Section  -->
+                                            {% load static %}
+
+                                            <div class="container">
+                                                <div class="row">
+                                                    <h6 class="text-primary fs-3">INTRODUCTION</h6>
+                                                    <hr color="grey">
+                                                    <section class="text-secondary intro-exp fs-4">
+                                                        PATH TRACKER ROBOT is a simple robot. This is a simple robot
+                                                        that was designed as a Third Year Mini
+                                                        Project just to know the basics of some electronics components
+                                                        and sensors. The main aim of this project is
+                                                        to
+                                                        be familiar with the basic robotic circuit which can help to
+                                                        advance the major projet in the Main Project.
+                                                        Here,
+                                                        a light sensor is used to track the white path and to move the
+                                                        mechanical body alng the tracked path.
+                                                    </section>
+                                                    <section>
+                                                        <p>
+                                                        <h6 class="text-danger fs-3">FUNCTIONS</h6>
+                                                        </p>
+                                                        <hr color="grey">
+                                                        <p>
+                                                        <ul class="b fs-4">
+                                                            <li>Just walks following the defined path.</li>
+
+                                                        </ul>
+                                                        </p>
+                                                    </section>
+
+                                                    <section>
+                                                        <h6 class="text-info fs-3">ADVANTAGES</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Easy to use</li>
+                                                            <li>User-Friendly</li>
+                                                            <li>Understanding basics and be familirar with the robotic
+                                                                circuit, electronic components and sensors.
+                                                            </li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                    <section>
+                                                        <h6 class="text-success fs-3">APPLICATIONS</h6>
+                                                        <hr color="grey">
+                                                        <P>
+                                                        <ul class="b fs-4">
+                                                            <li>Industrial Purposes</li>
+                                                            <li>Commercial Purposes</li>
+                                                            <li>Research and Development</li>
+                                                        </ul>
+                                                        </P>
+                                                    </section>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary fs-4"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AWARD-SECTION  -->
+    <section class="section award-section container1 section-div" id="award-section">
+        <div class="common-heading text-center">AWARDS</div>
+        <figure class="centerme">
+            <div class="award-image centerme">
+                <img class="img-fluid" loading="lazy" src="images/award/nta_award.jpg" alt="award-pic">
+            </div>
+        </figure>
+    </section>
+
+    <!-- CONTACT-SECTION  -->
+    <section class="section contact-section container1 section-div" id="contact-section">
+        <div class="common-heading text-center">CONTACT</div>
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/mzbnenva" method="POST">
+                <div class="contactform">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" required name="username" autocomplete="off" placeholder="username"
+                            id="username" />
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" required autocomplete="off" placeholder="E-Mail" id="email" />
+                    </div>
+                    <div>
+                        <label for="subject"></label>
+                        <input type="text" name="subject" required placeholder="subject" id="subject "
+                            autocomplete="off" />
+                    </div>
+                    <div>
+                        <label for="textarea"></label>
+                        <textarea name="message" placeholder="Write your message.." required min="5" id="textarea"
+                            cols="25" rows="5" id="textarea"></textarea>
+                    </div>
+                    <input type="submit" name="submit" id="submit" class="btn btn-danger" value="send message" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION  -->
+
+    <footer class="footer section-footer" id="section-footer">
+        <div class="container1 grid grid-three-column">
+
+            <!-- Links Section  -->
+            <div class="f-links">
+                <h3 class="text-decoration-underline fw-bolder">Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Experience</li>
+                    <li>Skills</li>
+                    <li>Education</li>
+                    <li>Projects</li>
+                    <li>Awards</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+
+            <!-- Services Section  -->
+            <div class="f-services">
+                <h3 class="text-decoration-underline fw-bolder">Services</h3>
+                <ul>
+                    <li>Web App Development</li>
+                    <li>Mobile App Development</li>
+                    <li>Online Classes</li>
+                    <li>Django Projects</li>
+                    <li>Python Program</li>
+                </ul>
+            </div>
+
+            <!-- Address Section  -->
+            <div class="f-address text-white">
+                <h3 class="text-decoration-underline fw-bolder">Address</h3>
+                <address class="address text-white">
+                    <div>
+                        <p class="text-white"><span><i class="ri-map-pin-line text-white"></i></span>Itahari, Nepal</p>
+                        <p class="text-white"><span><i class="ri-mail-fill text-white"></i></span>raidambar12@gmail.com
+                        </p>
+                        <p class="text-white"><span><i class="ri-smartphone-fill text-white"></i></span>+977 9843647665
+                        </p>
+
+                    </div>
+                </address>
+
+            </div>
+        </div>
+        <div class="container2">
+            <div class="f-social-links">
+                <i class="ri-facebook-box-fill"></i>
+                <i class="ri-instagram-fill"></i>
+                <i class="ri-youtube-fill"></i>
+                <i class="ri-twitter-fill"></i>
+            </div>
+            <div class="f-credits text-center">
+                <p class="text-white">copyright@2024 All rights reserved | ChamlingTech</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scrollTop-style">
+        <i onclick="topFunction()" id="UpArrow" class="ri-arrow-up-circle-line scroll-top"></i>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
