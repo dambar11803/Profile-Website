@@ -830,6 +830,10 @@ li{
         display:none;
     }
     
+    .about-title{
+        font-size:1.5rem;
+    }
+
     .mobile-navbar,
     .container {
         max-width:60rem;
