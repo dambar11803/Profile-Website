@@ -923,15 +923,17 @@ li{
         width:30rem;
         height:30rem;
         border-radius: 1.5rem;
-        opacity: 100%;
+        opacity: 100%; 
     } 
 
       .project img{
         width:30rem;
         height:30rem;
         border-radius: 1.5rem;
-        opacity: 100%;
+        opacity: 70%;
     }
+
+
 
  .award-image img{
     width:90%;
@@ -976,4 +978,7 @@ li{
         display:none;
      }
 
+     .project-title{
+        color:#ffa500;
+     }
 }
